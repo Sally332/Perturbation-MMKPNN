@@ -12,10 +12,6 @@ Perturbation-MMKPNN extends the **Multimodal Knowledge-Primed Neural Network (MM
 The framework aims to move beyond black-box models (CPA, scGen) by emphasizing **robust interpretability, attribution stability, and cross-dataset generalization**.
 
 ---
-## ❓ What can you learn with this framework?
-
-This project explores how regulatory programs shift under perturbation.  
-Specifically: **Which pathways and transcription factor modules mediate drug resistance or sensitivity in single-cell perturbation datasets (e.g., scPerturb, Perturb-seq)?**  The framework links perturbation inputs to mechanistic, interpretable modules so that predicted changes are biologically meaningful and traceable.
 
 ## Architecture
 <img width="817" height="405" alt="perturbation_mmkpnn_architecture" src="https://github.com/user-attachments/assets/4ca345b8-e2ce-400b-997b-193eb1629920" />
@@ -40,12 +36,8 @@ The architecture combines:
 ---
 
 ## Datasets
-To avoid overfitting on a single source, this repo is designed to work with **multiple perturbation datasets**:  
-- **scPerturb**: harmonized single-cell perturbation compendium  
-- **Perturb-seq**: CRISPR-based perturbation experiments with transcriptional readouts  
-- **L1000 (Connectivity Map)**: large-scale perturbation-response dataset  
-- **DrugComb**: drug perturbation synergy data  
-
+To avoid overfitting on a single source, this framework is designed to draw on multiple perturbation datasets, including scPerturb (a harmonized single-cell compendium), Perturb-seq (CRISPR-based perturbation experiments with transcriptional readouts), L1000 from the Connectivity Map (large-scale perturbation–response profiles), and DrugComb (drug perturbation synergy data). Together, these resources provide complementary perspectives on how cells respond to genetic and chemical perturbations.
+ 
 ---
 
 ## Methodology
@@ -71,6 +63,9 @@ To avoid overfitting on a single source, this repo is designed to work with **mu
 - [ ] Add robustness tests and cross-lab reproducibility checks  
 
 ---
+## Extensibility
+Beyond the current MM-KPNN design, the encoder could be replaced with transformer backbones or pretrained embeddings from foundation-scale biology models such as scGPT or Geneformer. This would allow large-scale single-cell perturbation data to be modeled within a foundation model ecosystem, while keeping interpretability through TF, pathway, and ligand–receptor bottlenecks.
+
 
 ## References
 1. Norman TM et al. *Perturb-seq* (2019).  
