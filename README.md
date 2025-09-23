@@ -7,7 +7,7 @@
 ---
 
 ## Overview
-Perturbation-MMKPNN extends the **Multimodal Knowledge-Primed Neural Network (MM-KPNN)** to model how cells respond to perturbations such as drugs or CRISPR interventions. It introduces a **pathway- and transcription-factor–based bottleneck layer** so that predictions remain biologically interpretable, highlighting latent subnetworks and regulatory programs that drive responses.  
+Perturbation-MMKPNN extends the **Multimodal Knowledge-Primed Neural Network (MM-KPNN)** to model how cells respond to perturbations such as drugs or CRISPR interventions. It introduces **pathway and transcription factor–based bottlenecks** that ensure predictions remain biologically interpretable, highlighting regulatory modules and subnetworks that drive responses.
 
 The framework aims to move beyond black-box models (CPA, scGen) by emphasizing **robust interpretability, attribution stability, and cross-dataset generalization**.
 
@@ -51,6 +51,8 @@ To avoid overfitting on a single source, this framework is designed to draw on m
   - Prediction accuracy  
   - Attribution stability across runs  
   - Recovery of known pathways and regulators  
+
+By linking perturbation inputs to interpretable modules, the framework provides mechanistic insight into conserved regulators of drug resistance and sensitivity across single-cell datasets.
 
 ---
 
