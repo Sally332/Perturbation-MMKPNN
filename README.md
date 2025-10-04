@@ -73,3 +73,10 @@ The current MM-KPNN backbone can be replaced with **transformer-based encoders**
 ## Citation
 > Yepes, S. *Perturbation-MMKPNN: Interpretable Modeling of Single-Cell Perturbation Responses.* GitHub, 2025.  
 > DOI: [10.5281/zenodo.17189224](https://doi.org/10.5281/zenodo.17189224)
+> 
+> ---
+> Perturbation-MMKPNN is part of the **MM-KPNN framework family**, extending interpretable modeling from multimodal single-cell data to perturbation-response analysis and regulatory mechanism discovery.
+
+> ---
+> 
+> 
