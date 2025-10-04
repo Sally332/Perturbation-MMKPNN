@@ -10,7 +10,9 @@
 
 ## Overview
 
-**Perturbation-MMKPNN** extends the Multimodal Knowledge-Primed Neural Network (MM-KPNN) to predict single-cell perturbation responses while keeping reasoning transparent through a **pathway/TF concept bottleneck**. Black-box predictors such as scGen and CPA achieve accuracy but fail to reveal **which pathways and subnetworks mediate response** or provide stable explanations across datasets. Perturbation-MMKPNN constrains learning through curated biological priors (Reactome, DoRothEA, MSigDB), transforming predictions into an interpretable mapping: **perturbation → regulatory program → transcriptional outcome**. Validated across **scPerturb, Perturb-seq, L1000, and DrugComb**, it benchmarks against scGen, CPA, and linear baselines, emphasizing **attribution stability** and **cross-dataset generalization**. This approach moves perturbation modeling from prediction to **mechanistic discovery**, identifying regulators of resistance and synthetic lethality with reproducibility and biological credibility.
+**Perturbation-MMKPNN** extends the Multimodal Knowledge-Primed Neural Network (MM-KPNN) to predict single-cell perturbation responses while keeping reasoning transparent through a **pathway/TF concept bottleneck**. Black-box predictors such as scGen and CPA achieve accuracy but fail to reveal **which pathways and subnetworks mediate response** or provide stable explanations across datasets. Perturbation-MMKPNN constrains learning through curated biological priors (Reactome, DoRothEA, MSigDB), transforming predictions into an interpretable mapping: **perturbation → regulatory program → transcriptional outcome**. 
+
+Validated across **scPerturb, Perturb-seq, L1000, and DrugComb**, it benchmarks against scGen, CPA, and linear baselines, emphasizing **attribution stability** and **cross-dataset generalization**. This approach moves perturbation modeling from prediction to **mechanistic discovery**, identifying regulators of resistance and synthetic lethality with reproducibility and biological credibility.
 
 ---
 
