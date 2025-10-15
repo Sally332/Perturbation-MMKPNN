@@ -63,10 +63,10 @@ The current MM-KPNN backbone can be replaced with **transformer-based encoders**
 ## References
 
 1. Norman TM *et al.* *Perturb-seq* (2019).  
-2. Replogle JM *et al.* *Combinatorial single-cell CRISPR screens.* **Nature** (2022).  
-3. Subramanian A *et al.* *Connectivity Map.* **Science** (2017).  
-4. Liu Q *et al.* *DrugCombDB.* **Nucleic Acids Research** (2020).  
-5. Yepes S. *MM-KPNN* GitHub Repository (2025).  
+2. Replogle JM *et al.* *Combinatorial single-cell CRISPR screens.* Nature (2022).  
+3. Subramanian A *et al.* *Connectivity Map.* Science (2017).  
+4. Liu Q *et al.* *DrugCombDB.* Nucleic Acids Research (2020).  
+5. Yepes S. *MM-KPNN.* GitHub Repository (2025).  
 
 ---
 
